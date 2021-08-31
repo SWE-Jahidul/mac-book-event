@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <main class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12 ">
+                <img src="./images/mac.png" class="img-fluid" alt="" srcset="">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+                <h1> Customize your Blue 24‑inch iMac with Apple M1 chip. </h1>
+                <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and
+                    16-core Neural Engin</p>
+
+
+
+                <div>
+                    <h3>memory</h3>
+                    <button id="eightGbFreeRam" type="button" class="btn btn-secondary btn-lg">8 GB Memory</button>
+                    <button id="sxteenGbPaidRam" type="button" class="btn btn-secondary btn-lg">16 GB Memory </button>
+                </div>
+
+                <div>
+                    <h3>Storage</h3>
+                    <button id="storage-256-gb" type="button" class="btn btn-secondary btn-lg ">256 GB SSD
+                        Storage</button>
+                    <button id="storage-512-gb" class="btn btn-secondary btn-lg my-2">512 GB SSD Storage</button>
+                    <button id="storage-1-tb" class="btn btn-secondary btn-lg">1TB SSD Storage</button>
+                </div>
+
+
+                <div>
+                    <h3>dalivary </h3>
+                    <button id="free-dalivary-cost" type="button" class="btn btn-secondary btn-lg">Friday,Aug 25 FREE
+                        Prime Delivery </button>
+                    <button id="paid-dalivary-cost" type="button" class="btn btn-secondary btn-lg my-2">Friday,Aug 25 
+                         Delivery Charge $20
+                    </button>
+                </div>
+
+                <div class="row  mt-5">
+
+                    <div class="col-md-8 col-sm-6 col-8">
+                        <h5>Best Price : </h5>
+                        <h5>Extra Memory Cost :</h5>
+                        <h5>Extra Storage Cost :</h5>
+                        <h5> Dalivary Cost :</h5>
+                        <hr>
+                        <h5> Total Cost :</h5>
+
+                    </div>
+
+                    <div class="col-md-4  col-sm-6 col-4 status">
+                        <h5> $ <span id='best-price'>1299</span></h5>
+                        <h5> $ <span id="memory-cost"> 0</span> </h5>
+                        <h5> $ <span id="storage-cost"> 0</h5>
+                        <h5> $ <span id="dalivary-cost">0</h5>
+                        <hr>
+                        <h5> $ <span id="total-price">1299</span> </h5>
+                    </div>
+
+
+                </div>
+               
+                <label for=""> Add Cupon code </label>
+                <div class="input-group mb-3 mt-4">
+                    <input id="user-code" type="text" class="form-control" aria-label=""
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button id="code-btn" class="btn btn-outline-danger" type="button">Code</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+
+        <h1 class="text-center"> Total  $<span id="all-total"> 1299 </span> </h1>
+
+        </div>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
